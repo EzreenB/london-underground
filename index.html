@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ezreen's Portfolio: Crime on TFL </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css" media="screen">
+    <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+    <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Amiri&family=Fira+Sans:wght@300&family=Vidaloka&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+      <div class="container">
+	<a href="" class="navbar-brand">How Safe is the London Underground?</a>
+      </div>
+    </div>
+    	<div class="row col-md-10 offset-md-1">
+  <div class= "col-3 col-md-10 offset-md-1">
+      <div class="page-header" id="banner">
+        <h1>Crime on London Underground</h1>
+      <img src="Images/Transport.GIF" id="maingif" width="100%">
+    </div>
+    <div class= "col-3 col-md-10 offset-md-1">
+  </div>
+  </div>
+      <div class="row">
+      <div class= "row col-md-10 offset-md-1">
+      <p><em>By Ezreen Benissan</em></p>
+      <p>Each year, millions of people travel on a Transport for London (TfL) service. For many, it is a quick and easy way of navigating around the city - whether you are jumping on the Tube to work or grabbing the bus to your local supermarket. Londoners are reliant on TfL and it’s services to support their metropolitan lifestyles. TfL services provide efficient links in and around London, but the increasing crime levels on public transport raise questions about customers' safety. </p>
+      <p>With the number of people opting to use TfL networks increasing each year, and many people returning to work as lockdown restrictions begin to ease in England, I investigated how safe the London Underground really is. </p>
+	</div>
+      </div>
+      <section class="row">
+	<div class="row col-md-10 offset-md-1">
+	  <h4>Popular London Stations </h4>
+<p>According to data obtained <a href="https://data.london.gov.uk/dataset/transport-crime-london">from TfL</a>, the stations with the most entry figures every year include Kings Cross St. Pancras, Victoria, London Bridge, Oxford Circus and Waterloo. Data from 2010 to 2017 shows the stations growing in popularity year on year. In 2012, TfL introduced an important and economical change to their services: contactless payments were permitted on networks. Transport use was no longer restricted to people with a valid Oyster card, but instead encouraged a larger number of people with contactless cards to use TfL services. This was not only the year of contactless payments, it was the year London hosted the 2012 Olympic Games. All eyes were on London, many sport-enthusiasts travelled into the capital to support and watch the games. Out of the 270 London Tube stations, the graph below highlights the vast number of people who rely on these stations to get around on a weekly basis. </p>
+  <iframe src="https://rstudio-pubs-static.s3.amazonaws.com/619340_a7199faa49434bc08c5e937ff5323442.html" width="500%" height="500"></iframe>
+    <p>Many of the stations displayed on  the graph have good transport links, efficiently connecting London to other cities and towns around the country. As the city grows in popularity, locations such as London Bridge and Kings Cross St. Pancras have also invested in the local area and are now home to many businesses. Other stations are close to popular tourist spots such as Oxford Circus and Waterloo. TfL's increased attraction has also seized the attention of lawbreaking individuals, highlighting a rise in criminal activity at these popular stations.</p>
+  <p>Based on the weekday entry figures, these are the top five most frequented stations in London. Choose a station to view the specific criminal offences that have taken place.</p>
+    <div class = "button-area" >
+              <button onclick="victoria()">Victoria</button>
+              <button onclick="waterloo()">Waterloo</button>
+              <button onclick="londonbridge()">London Bridge</button>
+              <button onclick="oxfordcircus()">Oxford Circus</button>
+              <button onclick="kingsx()">Kings Cross St. Pancras</button>
+              <img id= "Tubestation" src="Images/Victoria_station.png" alt="" width="50%"/>
+	</div>
+
+  <script>
+
+  var img = document.getElementById('Tubestation');
+  function victoria() {
+    img.src = "Images/Victoria_station.png"
+  }
+
+  function waterloo() {
+    img.src = "Images/Waterloo.png"
+  }
+
+  function londonbridge() {
+    img.src = "Images/London_bridge.png"
+  }
+
+  function victoria() {
+    img.src = "Images/Victoria_station.png"
+  }
+
+  function oxfordcircus() {
+    img.src = "Images/Oxford_circus.png"
+  }
+
+  function kingsx() {
+    img.src = "Images/KingsX.png"
+  }
+  </script>
+  <p> Each London Tube station shown in the graphs above demonstrates a worryingly high level of violence and property theft. These two offences are closely followed by a high number of public order offences. The station with the most crime overall is Kings Cross St. Pancras, with a total number of offences reaching 185 over the 11-month period.</p>
+      </section>
+
+      <section class="row">
+	<div class="row col-md-10 offset-md-1">
+	  <h4>The Rising Levels of Criminal Activity on the Tube </h4>
+	  <p>TfL have worked closely with the British Transport Police (BTP) to produce data on the volume of criminal activity taking place on London Underground, with data on criminal activity going back as far as 2009. Since 2015/16, crime on London Underground has steeply increased year on year. Recent criminal activity includes the death of Tashan Daniel, who was stabbed to death in an unprovoked attack on a London Tube in 2019. Late last year the National Union of Rail, Maritime and Transport (RMT), expressed serious concerns about the growing crime levels on London Underground services.</p>
+    <p><em>It is important to note that the data for London Underground is combined with London Dockland Rail networks.</em></p>
+  <img src="Images/crime_09-18.GIF">
+  <p>Mike Cash, <a href="https://www.rmt.org.uk/news/rmt-warns-that-crime-on-london-underground-is-out-of-control/">the General Secretary at RMT</a>, said: "official figures show that sexual assaults on London Underground have risen by more than 40% in the past four years are a truly shocking indictment of our crime-ridden transport system." The TfL website states that 90 per cent of sexual assaults go unreported, and urge people to report any crime that they experience or witness on London Underground.</p>
+  <p>The graph below compares the number of reported crimes from the first quarter of the financial year in 2017/18 to that of 2018/19. Although a few offences have decreased from the previous year, there are a number of crimes that have sharply increased, including violence against a person and theft of passenger property.</p>
+  <iframe src="https://rstudio-pubs-static.s3.amazonaws.com/619324_ff9ec2a4dfad40e6bfc29dbb92fbcf7e.html" width="500%" height="500"></iframe>
+  <p><em><small>The data can be found <a href="http://content.tfl.gov.uk/crime-statistics-bulletin-1718.pdf">here</a></em></p></small>
+  </div>
+      </section>
+
+
+      <section class="row">
+	<div class="row col-md-10 offset-md-1">
+	  <h4>London Underground vs Other TfL Services</h4>
+	  <p>Although crime rates are increasing on London Underground, it is important to look at how it compares with other TfL services. Investigation into the volume of crime on all TfL services has shown that London Underground is not usually the service with the highest volume of crime each year. The data shows that, until 2018/19, TfL Bus services had consistently more crime levels. This is closely followed by the London Underground and Overground services.</p>
+    <p>As the crime rate on TfL services have fluctuated over the past decade, 2018/19 has the highest volume of crime on London Underground compared to the other services. The graph also shows that 2018/19 was the highest year on record for reported criminal offences on London Underground.</p>
+    <iframe src="https://rstudio-pubs-static.s3.amazonaws.com/619334_5b605c7a2c5349e3a9e6d3d0ec806c18.html" width="500%" height="500"></iframe>
+  </div>
+      </section>
+
+      <section class="row">
+	<div class="row col-md-10 offset-md-1">
+	  <p>The rising criminal activity taking place on the London Underground is concerning. Presently, COVID-19 has deterred criminals and put a halt on criminal activity on the Tube. However, as the UK government takes steps towards a new normality, action is needed to ensure crime levels on all TfL services remain low - for both the passengers and TfL staff members.</p>
+  </div>
+      </section>
+
+<section class="row">
+  <div class="col-12 col-md-4">
+
+    <iframe
+    class="map"
+       width="100%"
+       height="400"
+src="https://rstudio-pubs-static.s3.amazonaws.com/617167_afb5ca7952674f0bad24c55c1d6ce678.html"></iframe>
+  </div>
+<div class="col-12 col-md-6 offset-md-1">
+<h4>London Tube Map</h4>
+<p>Here is a map of all London Underground Tube stations. Click on the station icon to find out which Tube line runs to that station.</p>
+<p><small>The data for this map can be found <a href="https://github.com/rk295/Tube-postcodes/blob/master/LondonTube.xls">here </a></small></p>
+</div>
+  </body>
+</html>
